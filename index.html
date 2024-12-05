@@ -140,6 +140,92 @@
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
+        body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .column {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+  .column {
+    display: inline-block;
+    width: 48%;
+    margin-right: 4%;
+  }
+
+  .column:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .column {
+    display: inline-block;
+    width: 30%;
+    margin-right: 5%;
+  }
+
+  .column:last-child {
+    margin-right: 0;
+  }
+}
+
     </style>
 </head>
 <body>
