@@ -111,8 +111,8 @@
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
         }
         ::-webkit-scrollbar {
-  width: 5px;
-  height: 1px;
+  width: 10px;
+  height: 0px;
 }
 
 ::-webkit-scrollbar-track {
@@ -122,12 +122,12 @@
 
 ::-webkit-scrollbar-thumb {
   background: #ffd900;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: background 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #ffd900;
 }
 
 ::-webkit-scrollbar-corner {
