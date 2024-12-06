@@ -110,35 +110,6 @@ body {
             transform: scale(1.1);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
         }
-h1 {
-    font-size: 40px;
-}
 
-@media (max-width: 900px) {
-    h1 {
-        font-size: 30px;
-    }
-}
 
-@media (max-width: 600px) {
-    h1 {
-        font-size: 20px;
-    }
-}
-
-.container {
-    width: 80%;
-}
-
-@media (max-width: 900px) {
-    .container {
-        width: 90%;
-    }
-}
-
-@media (max-width: 600px) {
-    .container {
-        width: 100%;
-    }
-}
 
